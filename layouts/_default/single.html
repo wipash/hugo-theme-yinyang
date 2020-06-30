@@ -59,8 +59,8 @@
         <div class="post-ads">{{ .Site.Params.postAds | safeHTML }}</div>
         {{ end }}
         <!-- split -->
-        <div style="height: 50px;"></div>
         {{ if .Site.Params.disqus }}
+        <div style="height: 50px;"></div>
         <div class="post-comments">
           {{ partial "disqus.html" . }}
         </div>
