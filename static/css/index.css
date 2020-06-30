@@ -218,3 +218,12 @@ a:hover {
   bottom: 0;
   background: white;
 }
+
+.markdown-body p > code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 4px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
