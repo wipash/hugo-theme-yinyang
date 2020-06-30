@@ -14,6 +14,7 @@
         <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/">{{ $value.Name }}<sup>{{ $value.Count }}</sup></a>
         {{ end }}
         {{ partial "footer.html" . }}
+        {{ partial "copyright.html" . }}
       </div>
     </div>
   </article>
