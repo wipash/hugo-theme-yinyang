@@ -97,7 +97,6 @@ a:hover {
 
 .site-footer {
   margin-top: 50px;
-  margin-bottom: 80px;
   display: flex;
   justify-content: flex-end;
   padding: 12px 0;
@@ -146,6 +145,7 @@ a:hover {
   font-weight: 900;
   padding: 2px;
   border: #000 2px solid;
+  margin-right: 5px;
 }
 
 .post-date {
@@ -165,7 +165,7 @@ a:hover {
 .post-content p {
   hyphens: auto;
   line-height: 1.8;
-  /* text-align: justify; */
+  text-align: justify;
   text-justify: ideographic;
   margin-bottom: 1em;
 }
@@ -217,4 +217,18 @@ a:hover {
   position: absolute;
   bottom: 0;
   background: white;
+}
+
+.markdown-body p > code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 4px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 50px;
 }
