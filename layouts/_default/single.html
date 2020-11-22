@@ -36,17 +36,8 @@
           {{ .Content }}
         </div>
 
-        <div class="row">
-          <div class="col-xs-12">
-            {{ .Site.Params.postFooterContent | markdownify }}
-          </div>
-        </div>
-        <br/>
-
-        {{ if isset .Params "categories" }}
         <div class="row middle-xs">
           <div class="col-xs-12">
-            Categories:
             {{ range .Params.categories }}
             <div class="post-category">
               <a href="{{ site.LanguagePrefix }}/categories/{{ lower . }}/">
@@ -78,7 +69,6 @@
         {{ end }}
 
         {{ partial "footer.html" . }}
-        {{ partial "copyright.html" . }}
       </div>
     </div>
   </article>
